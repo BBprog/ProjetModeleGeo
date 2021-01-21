@@ -82,6 +82,7 @@ protected:
     virtual void mouseReleaseEvent( QMouseEvent* );
     virtual void mouseMoveEvent( QMouseEvent* );
     virtual void wheelEvent( QWheelEvent* );
+
 };
 
 #endif // MESHVIEWERWIDGET_H

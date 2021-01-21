@@ -41,15 +41,27 @@ macx: {
 }
 
 SOURCES += \
+    courbebezier.cpp \
+    courbeparametrique.cpp \
+    discretisation.cpp \
         main.cpp \
         mainwindow.cpp \
+    meshitem.cpp \
     meshviewerwidget.cpp \
-    materiel_courbures/courbures.cpp
+    materiel_courbures/courbures.cpp \
+    point.cpp \
+    segment.cpp
 
 HEADERS += \
+    courbebezier.h \
+    courbeparametrique.h \
+    discretisation.h \
         mainwindow.h \
+    meshitem.h \
     meshviewerwidget.h \
-    materiel_courbures/courbures.h
+    materiel_courbures/courbures.h \
+    point.h \
+    segment.h
 
 FORMS += \
         mainwindow.ui

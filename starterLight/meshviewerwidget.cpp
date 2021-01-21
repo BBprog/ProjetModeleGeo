@@ -7,12 +7,14 @@ MeshViewerWidget::MeshViewerWidget(QWidget*_parent) : QGLWidget(_parent)
     pointsToDraw = 0;
 
     setMouseTracking(true);
+    setFocusPolicy(Qt::StrongFocus);
     setFocus();
 }
 
 MeshViewerWidget::MeshViewerWidget( QGLFormat& _fmt, QWidget* _parent ) : QGLWidget( _fmt, _parent )
 {
     setMouseTracking(true);
+    setFocusPolicy(Qt::StrongFocus);
     setFocus();
 }
 
